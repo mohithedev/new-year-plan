@@ -20,12 +20,8 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 /* header style start */
-header{
-    height: 700px;
-}
 .banner{
-    height: 100%;
-    padding: 200px;
+    padding: 150px;
     background-image: url("../images/banner/banner1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,4 +57,113 @@ header{
     border: none;
     cursor: pointer;
 }
+.big_title{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 50px 0;
+    text-align: left;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--dark-gray);
+    text-align: left;
+    margin-bottom: 15px;
+}
+ul li{
+    text-align: left;
+    list-style: circle;
+    color: var(--dark-gray);
+    margin-bottom: 5px;
+}
 /* header style end */
+.primary_btn{
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: var(--orange);
+    background: var(--white);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+}
+.fail_container{
+    display: flex;
+    justify-content: space-around;
+    gap: 85px;
+    align-items: center;
+}
+.plan_container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.plan .big_title{
+    text-align: center;
+}
+.title{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.sub_title{
+    color: var(--dark-gray);
+    font-size: 25px;
+}
+.track{
+    padding: 150px;
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position:  left center, center;
+    border-radius: 50px;
+    text-align: left;
+}
+.track .big_title{
+    font-size: 40px;
+    color: var(--white);
+}
+/* footer style start */
+footer{
+    background: var(--black);
+    color: var(--white);
+}
+.footer_container{
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+    text-align: left;
+}
+.footer_child{
+    width: 50%;
+}
+.footer_child p{
+    color: var(--white);
+}
+.footer_child .big_title{
+    margin-bottom: 10px;
+}
+.footer_child:first-child .big_title{
+    font-size: 45px;
+}
+.footer_child input{
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 2px solid var(--white);
+    color: var(--dark-gray);
+    background: var(--black);
+    outline: none;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.footer_child .icon{
+    display: flex;
+    gap: 20px;
+}
